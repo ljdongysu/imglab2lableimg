@@ -76,6 +76,7 @@ def imglab2lableimg(imglab_xml, image_dict, img_dir):
         new_folder = ET.Element('folder')
         print(filename)
         if filename not in image_dict.keys():
+            print(filename + "not exist, continue")
             continue
         print(image_dict)
         print(image_dict[filename])
