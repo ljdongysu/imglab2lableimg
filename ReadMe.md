@@ -9,9 +9,7 @@ lableimg 地址： https://github.com/liujiaxing7/labelImg
 运行代码： ```python imglab_xml.py --image-dir /data/image --imglab-xml imglab.xml```  
 
 ### imglab和labelimg的xml转为txt
-# 等待修改带完再完善readme
  - imglab的xml转txt
-   -  
    - 运行代码： ```python imglab2xml.py  --root-path ANNOTATIONS  --xml-list  imglab_xml.txt```
    - ```ANNOTATIONS``` 为上一步骤生成的包含单个图像xml文件夹的路径，```imglab_xml.txt```为每个xml文件列表， 运行后会自动在```ANNOTATIONS```同级目录生成```labels_imglab```目录保存txt文件
  - labelimg的xml转txt
